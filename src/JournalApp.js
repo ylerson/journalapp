@@ -12,3 +12,5 @@ export const JournalApp = () => {
         </Provider>
     )
 }
+
+
