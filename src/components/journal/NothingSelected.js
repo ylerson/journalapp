@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const NothingSelected = () => {
     return (
@@ -6,11 +6,11 @@ export const NothingSelected = () => {
             <p>
                 Select Something
 
-            <br/>
+                <br/>
             create an entry!
 
             </p>
             <i className='far fa-star fa-4x mt-5'></i>
         </div>
-    )
-}
+    );
+};

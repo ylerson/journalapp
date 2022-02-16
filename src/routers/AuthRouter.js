@@ -1,7 +1,7 @@
-import React from 'react'
-import { Route, Routes, Navigate } from 'react-router-dom'
-import { LoginScreen } from '../components/auth/LoginScreen'
-import { RegisterScreen } from '../components/auth/RegisterScreen'
+import React from 'react';
+import { Route, Routes, Navigate } from 'react-router-dom';
+import { LoginScreen } from '../components/auth/LoginScreen';
+import { RegisterScreen } from '../components/auth/RegisterScreen';
 
 export const AuthRouter = () => {
     return (
@@ -9,15 +9,15 @@ export const AuthRouter = () => {
 
             <div className='auth__box-container'>
 
-            <Routes>
-                <Route path="login" element={<LoginScreen />}/>
-                <Route path="register" element={<RegisterScreen />}/>
-                <Route path="*" element={<Navigate replace to="/auth/login" />} />
+                <Routes>
+                    <Route path="login" element={<LoginScreen />}/>
+                    <Route path="register" element={<RegisterScreen />}/>
+                    <Route path="*" element={<Navigate replace to="/auth/login" />} />
 
-            </Routes>
+                </Routes>
 
             </div>
 
         </div>
-    )
-}
+    );
+};
